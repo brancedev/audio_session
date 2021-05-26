@@ -11,7 +11,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  just_audio: ^0.7.0
+  just_audio:
+    git:
+      url: https://github.com/brancedev/just_audio.git
+      path: just_audio
   audio_session:
     path: ../
 
